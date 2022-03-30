@@ -12,18 +12,24 @@ The storms data shared by CyVerse user `culshawmaurer` can be found inside the c
 
 ## Cloning a GitHub Repo
 
-Go to the `Terminal` pane of RStudio, and type `gh auth login`. This will walk you through the process of authenticating with GitHub.
+Go to the `Terminal` pane of RStudio, and clone this repo like so:
 
-After this is done, set up your `git` configuration:
+```
+git clone https://github.com/MCMaurer/VICE_GitHub_Workflow.git
+```
+
+Next, set up your `git` configuration:
 
 ```
 git config --global user.name "Your Name"
 git config --global user.email "youremail@domain.com
 ```
 
-Then you can run `gh repo clone YourGHName/RepoName` to clone a repository. You could clone this repository if you had access. You could instead fork it by running `gh repo fork MCMaurer/VICE_GitHub_Workflow`, then clone your own version by running `gh repo clone YourGHName/VICE_GitHub_Workflow`.
+Finally, set up GitHub authentication by running `gh auth login`. This will walk you through the process of authenticating with GitHub.
 
 Once the repo has been cloned, you can open the RStudio Project file to open the project.
+
+**Note**: you can also list, clone, or fork repos with `gh`. However, sometimes the authorization doesn't carry over once you open an RStudio Project. If you are ever prompted for your GitHub username or password, just redo the authentication process with `gh auth login`.
 
 ## Reading the Shared Data
 
