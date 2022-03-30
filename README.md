@@ -1,6 +1,6 @@
 # VICE GitHub Workflows
 
-This is the repository for YOURNAME.
+This is the repository for Michael.
 
 Launch VICE app with shared data input here:
 
